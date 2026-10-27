@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+seaborn
+requests
+sqlalchemy
+psycopg2-binary
+jupyter
+ipython

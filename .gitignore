@@ -1,0 +1,22 @@
+
+# Entorno virtual de Python
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Configuración local de VS Code
+.vscode/
+
+# Puntos de control de Jupyter
+.ipynb_checkpoints/
+
+# Datos descargados: no subir los CSV
+datos/raw/*
+datos/clean/*
+
+# Mantener las carpetas de datos en el proyecto
+!datos/raw/.gitkeep
+!datos/clean/.gitkeep
