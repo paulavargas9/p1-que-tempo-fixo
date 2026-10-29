@@ -1,4 +1,3 @@
-
 # Entorno virtual de Python
 .venv/
 venv/
@@ -6,6 +5,9 @@ venv/
 # Archivos temporales de Python
 __pycache__/
 *.py[cod]
+
+# Archivos de macOS
+.DS_Store
 
 # Configuración local de VS Code
 .vscode/
