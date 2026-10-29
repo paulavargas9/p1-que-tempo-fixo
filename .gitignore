@@ -22,3 +22,6 @@ datos/clean/*
 # Mantener las carpetas de datos en el proyecto
 !datos/raw/.gitkeep
 !datos/clean/.gitkeep
+
+# Evitar archivos CSV dentro de notebooks
+notebooks/**/*.csv
